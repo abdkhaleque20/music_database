@@ -35,7 +35,7 @@ order by total desc
 limit 1;
 
 
-----------------------------------------------/* Question Set 2 - Moderate */---------------------------------------------------------
+----------------------------------------------/* Question Set 2  */---------------------------------------------------------
 
 /* Q1: Write query to return the email, first name, last name, & Genre of all Rock Music listeners. 
 Return your list ordered alphabetically by email starting with A. */
@@ -71,7 +71,7 @@ where milliseconds > (select avg(milliseconds) from track )
 order by milliseconds desc ;
 
 
---------------------------------------------------/* Question Set 3 - Advance */-----------------------------------------------------
+--------------------------------------------------/* Question Set 3 */-----------------------------------------------------
 
 /* Q1: Find how much amount spent by each customer on artists? Write a query to return customer name, artist name and total spent */
 --Ans:
